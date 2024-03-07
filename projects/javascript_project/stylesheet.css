@@ -1,0 +1,65 @@
+label {
+    display: block;
+}
+
+.banner {
+    border-style: solid;
+    border-color: black;
+    background-color: slategray;
+    color: white;
+}
+.center {
+    text-align: center;
+}
+.leftAlign {
+    text-align: left;
+    padding-left: 13%;
+}
+.leftFloat {
+    width: 30%;
+    margin-right: 10px;
+    /* padding-left: 13%; */
+    float: left;
+}
+
+.rightFloat {
+    width:40%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+    padding-right: 20px;
+}
+
+#newPageHeader {
+    margin-bottom: 3%;
+    
+
+}
+#techToolbox {
+    margin-bottom: 15%;
+    
+}
+
+.bottomLine {
+    border-bottom: solid;
+    border-color: slategray;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#createResume {
+    background-color: slategray;
+    color: white;
+    border: solid black;
+    border-radius: 5%;
+    padding: 2% 3%;
+}
+
+.index p {
+    text-decoration: underline;
+}
+
