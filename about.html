@@ -12,13 +12,19 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/custom_styles.css" rel="stylesheet" />
+        <!-- Fonts/Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,350;1,350&family=Zilla+Slab:wght@500;600;700&display=swap" rel="stylesheet">
+    
     </head>
     <body >
         <!-- Responsive navbar-->
         
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark grad fixed-top roboto-mono">
             <div class="container">
-                <a class="navbar-brand" href="#">John Futrell</a>
+                <a class="navbar-brand" href="index.html">John Futrell</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -32,26 +38,41 @@
                                 <li><a class="dropdown-item" href="projects/imaginary_beach/index.html" target="_blank">Imaginary Beach Project</a></li>
                                 <li><a class="dropdown-item" href="projects/javascript_project/index.html" target="_blank">JavaScript Project</a></li>     
                                 <li><a class="dropdown-item" href="projects/imaginary_county/index.html" target="_blank">Imaginary County Project</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="https://johnswebjourney.wordpress.com/" target="_blank">Blog on WordPress</a></li>
+                            
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://johnswebjourney.wordpress.com/" target="_blank">Blog</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page content-->
-        <div class="container">
+        <div class="container pt-5">
             <div class="text-center mt-5">
-                <h1 class="mb-5">About</h1>
-                 
+                <h1 class="mb-3">About Me</div></h1>
+            
                 <div class="container">
-                    <div class="row justify-content-center box_bg bg-opacity-75">
-                        <div class="col-lg-3 col-sm-12 m-2">
+                    <div class="row justify-content-center box_bg bg-opacity-75 ">
+                        <div class="col-lg-4 col-sm-12 m-4">
                             <img src="assets/john_futrell_700.jpg" class="rounded-circle img-fluid" alt="John Futrell">
                         </div>
-                       <div class="col-lg-6 col-sm-12 text-start m-2">
-                            <p>Hello and welcome to my portfolio page. My name is John Futrell and I am an aspiring web developer. I have spent the last 10 years in the environmental field but wanted to try something new. Thats when I decided to start taking classes at Wake Tech and found my love for web development. I feel like I've learned so much these last couple years. From the basics of HTML/CSS and JavaScript to Bootstrap, PHP, Python, C#, and ASP.NET Core MVC I've thouroughly enjoyed learning about all of them in the classes I've taken at Wake Tech. I'm excited to continue learning and seeing what the future holds! </p>
+                       <div class="col-lg-6 col-sm-12 text-start m-4 education">
+                            <section> 
+                                <h2>Education</h2>
+                                <section>
+                                    <h3>Wake Tech Community College - Raleigh, NC</h3>
+                                    <p>Information Technology: Web Developer AAS, 2024</p>
+                                    <p class="justify">During my time taking classes at Wake Tech I have been exposed to a variety of programming languages and technologies. Some include HTML, CSS, JavaScript, Bootstrap, WordPress, Python, C#, more.</p>
+                                </section>
+                                <section class="justify divider">
+                                    <h3>N.C. State University - Raleigh, NC</h3>
+                                    <p>Agricultural and Environmental Technology BS, 2013</p>
+                                    <p>Learned about a variety of technologies and environmental concerns.</p>
+                                </section>                       
+                            
+                            </section>
                             <a class="btn btn-dark" href="assets/John_F_Resume.pdf" target="_blank">Resume</a>
                        </div>
                     </div>     
@@ -60,13 +81,13 @@
         </div>
         <!--Footer-->
         <hr class="round">
-        <footer class="footer" >
+        <footer class="grad2" >
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-instagram"></a>
-                    <p class="align-self-end">&copy - 2024 - John Futrell</p>
+                    <p class="align-self-end white">&copy - 2024 - John Futrell</p>
                 </div>
             </div>
         </footer>
